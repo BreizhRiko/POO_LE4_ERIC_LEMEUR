@@ -1,4 +1,4 @@
-package reseau;
+package instance.reseau;
 
 import java.util.HashMap;
 import java.util.Map;

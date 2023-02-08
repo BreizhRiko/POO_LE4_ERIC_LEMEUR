@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226a0748-59c6-4903-9ba3-bfb97a976c1a" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reseau/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reseau/Depot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reseau/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reseau/Route.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="226a0748-59c6-4903-9ba3-bfb97a976c1a" name="Changes" comment="class">
+      <change afterPath="$PROJECT_DIR$/instances/A-n32-k5.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/A-n39-k5.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/A-n54-k7.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/A-n80-k10.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/B-n31-k5.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/B-n45-k6.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/B-n57-k7.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/B-n78-k10.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/E-n101-k14.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instances/P-n101-k4.vrp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/InstanceReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/exception/FileExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/exception/FormatFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/exception/OpenFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/exception/ReaderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/Tournee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/instance/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instance/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reseau/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instance/reseau/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reseau/Depot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instance/reseau/Depot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reseau/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instance/reseau/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reseau/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instance/reseau/Route.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +42,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cf487c75-900f-4226-b75d-4be530c917c9" />
+        <option name="url" value="https://github.com/BreizhRiko/POO_LE4_ERIC_LEMEUR.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675841484914</updated>
-      <workItem from="1675841484914" duration="7656000" />
+      <workItem from="1675841484914" duration="13317000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675841554029</created>
@@ -70,14 +98,53 @@
       <option name="project" value="LOCAL" />
       <updated>1675841554029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1675849287730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675849287730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="class" />
+    <option name="LAST_COMMIT_MESSAGE" value="class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/io/InstanceReader.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/io/InstanceReader.java</url>
+          <line>253</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

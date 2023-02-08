@@ -1,4 +1,4 @@
-package reseau;
+package instance.reseau;
 
 public class Client extends Point{
 
